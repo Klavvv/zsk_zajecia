@@ -5,5 +5,6 @@
   echo 'Imię:$name<br>';
   // konkatenacja .
   echo "Nazwisko:$surname"."<br>";
+  echo "Metheus";
 
 ?>
