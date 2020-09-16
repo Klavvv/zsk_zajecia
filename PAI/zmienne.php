@@ -7,4 +7,8 @@
   echo "Nazwisko:$surname"."<br>";
   echo "Metheus";
 
+  // typy danych
+  // boolean
+  
+
 ?>
