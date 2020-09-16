@@ -10,7 +10,7 @@
   $pow=2**10;
   echo "$pow<br>";
 
-  //operatory bitowe
+  // operatory bitowe
   // and &, or |, not ~, xor ^, <<, >>
   $bin=0b1010;
   echo "<br>$bin<br>";
