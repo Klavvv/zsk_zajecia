@@ -57,7 +57,40 @@
 
 // operatory rzutowania
 
+  $test1='123abc45';
+  $test2=0;
+  $test3=20;
 
+  echo '<br>Typ danych $test: ',gettype($test1),' ----- ';
+  echo $test1,'<br>';
+  echo (int)$test1;
 
+  echo '<br>Typ danych $test: ',gettype($test2),' ----- ';
+  echo $test2,'<br>';
+  echo (bool)$test2;
+
+  echo '<br>Typ danych $test: ',gettype($test3),' ----- ';
+  echo $test3,'<br>';
+  echo (float)$test3;
+
+// rozmiar typu intiger
+
+  echo '<hr>';
+  echo PHP_INT_SIZE;  //8
+
+// kontrola typu zmiennej
+// is_int(), is_float(), is_string(), is_bool(), is_null()
+
+  $x=1;
+  $y=null;
+  echo '<hr>',is_int($x),'<br>';
+  echo is_float($x),'<br>';
+  echo is_bool($x),'<br>';
+  echo is_null($y),'<br>';
+
+// operator ignorowania błędów @
+  $w;
+  echo '<hr>',$w,'<br>';
+  echo @gettype($w);
 
 ?>
