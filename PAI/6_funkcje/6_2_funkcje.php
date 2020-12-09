@@ -12,8 +12,8 @@
       <input type="submit" name="Wyślij dane"><hr>
     </form>
     <?php
-      require_once '7_funkcje.php';
-      
+      require_once '6_1_funkcje.php';
+
 
       echo show("Mariusz","Pudzianowski");
 

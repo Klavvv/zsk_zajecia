@@ -16,7 +16,7 @@
 
 
 
-  include "7_funkcje.php";
+  include "6_1_funkcje.php";
   echo show("Jan","Kowalski");
 
 

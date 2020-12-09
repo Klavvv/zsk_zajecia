@@ -16,7 +16,7 @@
 
   <h4>Ilość elementów</h4>
 
-  <form action="./10_1_data.php" method="post">
+  <form action="./8_1_data.php" method="post">
 
     <input type="number" name="count" placeholder="Ilość elementów"><br><br>
 
